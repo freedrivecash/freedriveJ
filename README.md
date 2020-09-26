@@ -102,7 +102,7 @@ put.json内容如下
 参数名称				|类型		|出现要求	|描述  
 :----					|:---		|:------	|:---	
 &emsp;dapp_addr				|string		|Required		|应用地址
-&emsp;drive_id				|string		|Required		|传"0",表示上链全新数据
+&emsp;drive_id				|string		|Required		|要查询的drive_id
 &emsp;prev				|int		|Required		|相对于drive_id向前索引
 &emsp;next				|int		|Required		|相对于drive_id向后索引
 &emsp;timestamp				|string		|Required		|时间戳
